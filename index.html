@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="home">
+    <nav class="navbar">
+      <div class="logo">Ali</div>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+   <section class="hero" style="background-color: rgb(118, 60, 194);" >
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Hi, I'm <span class="primary">Ali Arham</span></h1>
+      <p>Web Developer | PHP | JS | Laravel</p>
+      <a href="dash.jpg" class="btn">See My Work</a>
+    </div>
+    <div class="hero-image">
+      <img src="profile.jpeg"  style="border-radius: 60px;" height="150px" width="250px"   alt="Ali Arham" />
+    </div>
+  </div>
+</section>
+
+    
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I’m a passionate web developer with skills in HTML, CSS, JavaScript, PHP and Laravel. I love building real-world web solutions with clean and efficient code.</p>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>PHP</li>
+      <li>Laravel</li>
+      <li>MySQL</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section" style="width: 2200px;" >
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card" >
+        <img src="dash.jpg" alt="Project 1" />
+        <h3>Smart Car parking system</h3>
+        <p> Built using HTML, CSS, JS, PHP - features include Reserve parking Slot in advance,Park any time of vehicle like car,motorcycle,truck,bicycle</p>
+        <a href="https://github.com/Arham2785/Smart-car-parking-system" target="_blank" class="btn">View Code</a>
+      </div>
+      <div class="project-card" >
+        <img src="laa 2.jpg" alt="Project 2" />
+        <h3>My‑App (Laravel + MySQL)”</h3>
+        <p>Built using Laravel, MySQL — features include landing page, user authentication (admin/customer), dashboard, category & product management</p>
+        <a href="https://github.com/Arham2785/My-app" target="_blank" class="btn">View Code</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section"> <h2>Contact Me</h2> <p>Feel free to send me a message.</p> <form action="https://formsubmit.co/aliarhamWebdeveloper@gmail.com " method="POST" class="contact-form"> <!-- Replace your-email@gmail.com apna email se zaroor karo --> <input type="text" name="name" placeholder="Your Name" required> <input type="email" name="email" placeholder="Your Email" required> <textarea name="message" placeholder="Your Message" required></textarea> <button type="submit" class="btn">📩 Send Message</button>
+ </form> </section>
+
+  
+
+
+  <footer>
+    <p>© 2025 MyName. All rights reserved.</p>
+  </footer>
+
+  <button id="scroll-top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
